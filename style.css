@@ -6,35 +6,68 @@
 
 /* SECTION element selectors */
 
-  body{
-    padding: 1em 2em;
-  }
+body {
+  margin: 0;
+}
 
-  header{
-    border-bottom: 2px solid black;
-  }
+header {
+  border-bottom: 2px solid black;
+  margin: 1em 2em;
+}
 
-  img{
-    max-height: 60vh;
-  }
+main {
+  margin: 5em 2em;
+}
+
+img {
+  max-height: 60vh;
+}
+
+footer {
+  background-color: #1F2130;
+  color: white;
+  padding: 3em;
+}
+
+section {
+  max-width: 40%;
+}
+
 /* !SECTION  */
 
 
 /* SECTION class selectors */
 
-.header-title{
+.header-title {
   font-size: 2rem;
   margin-bottom: .2em;
 }
 
-.display-flex{
+.display-flex {
   display: flex;
+}
+
+.justify-flex-items-evenly {
+  /* NOTE justify changes flex item spacing on x-axis */
+  justify-content: space-evenly;
+}
+
+.justify-flex-items-between {
+  justify-content: space-between;
+}
+
+.align-flex-items-center {
+  /* NOTE align changes flex item spacing on y-axis */
+  align-items: center;
 }
 
 /* !SECTION  */
 
 
 /* SECTION fancy selectors */
+
+footer>div {
+  max-width: 20%;
+}
+
 /* !SECTION  */
-
-
