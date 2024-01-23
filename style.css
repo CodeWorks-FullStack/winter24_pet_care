@@ -5,13 +5,32 @@
 
 
 /* SECTION element selectors */
+
+  body{
+    padding: 1em 2em;
+  }
+
+  header{
+    border-bottom: 2px solid black;
+  }
+
+  img{
+    max-height: 60vh;
+  }
 /* !SECTION  */
 
 
 /* SECTION class selectors */
+
 .header-title{
-  font-size: 24px;
+  font-size: 2rem;
+  margin-bottom: .2em;
 }
+
+.display-flex{
+  display: flex;
+}
+
 /* !SECTION  */
 
 
